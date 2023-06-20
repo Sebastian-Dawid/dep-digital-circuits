@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SW 0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SW 1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SW 2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SW 3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>sw_2_6seg.dig</elementName>
+      <elementAttributes/>
+      <pos x="440" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>commonConnectionType</string>
+          <de.neemann.digital.core.io.CommonConnectionType>anode</de.neemann.digital.core.io.CommonConnectionType>
+        </entry>
+        <entry>
+          <string>commonCathode</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ANODE</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>PT</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="1020"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="340" y="720"/>
+      <p2 x="440" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="720"/>
+      <p2 x="620" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="1040"/>
+      <p2 x="600" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="800"/>
+      <p2 x="520" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="740"/>
+      <p2 x="440" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="740"/>
+      <p2 x="640" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="1060"/>
+      <p2 x="620" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="680"/>
+      <p2 x="440" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="680"/>
+      <p2 x="580" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="760"/>
+      <p2 x="560" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="1000"/>
+      <p2 x="700" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="700"/>
+      <p2 x="440" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="700"/>
+      <p2 x="600" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="1020"/>
+      <p2 x="580" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1020"/>
+      <p2 x="700" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="780"/>
+      <p2 x="540" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="740"/>
+      <p2 x="640" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1000"/>
+      <p2 x="640" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="760"/>
+      <p2 x="560" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="680"/>
+      <p2 x="580" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="1000"/>
+      <p2 x="580" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="700"/>
+      <p2 x="600" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1000"/>
+      <p2 x="600" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="800"/>
+      <p2 x="520" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="720"/>
+      <p2 x="620" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1000"/>
+      <p2 x="620" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="780"/>
+      <p2 x="540" y="1040"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
