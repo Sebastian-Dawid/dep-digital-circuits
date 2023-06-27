@@ -42,7 +42,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SEG 3</string>
+          <string>SEG_3</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -56,7 +56,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SEG 2</string>
+          <string>SEG_2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -70,7 +70,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SEG 1</string>
+          <string>SEG_1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -84,7 +84,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SEG 0</string>
+          <string>SEG_0</string>
         </entry>
         <entry>
           <string>Bits</string>
